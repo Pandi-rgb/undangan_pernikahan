@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "wish": {
+      "title": "Wish",
+      "description": "Ucapan dan doa dari tamu undangan pernikahan beserta konfirmasi kehadiran.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Nama tamu undangan",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "status": {
+          "type": "string",
+          "description": "Status kehadiran tamu",
+          "enum": ["Hadir", "Tidak Hadir"]
+        },
+        "message": {
+          "type": "string",
+          "description": "Doa dan ucapan selamat untuk kedua mempelai",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Waktu pengiriman ucapan"
+        }
+      },
+      "required": ["name", "status", "message", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/wishes/{wishId}": {
+      "schema": "wish",
+      "description": "Koleksi publik ucapan dan doa tamu undangan yang disinkronkan secara real-time"
+    }
+  }
+}

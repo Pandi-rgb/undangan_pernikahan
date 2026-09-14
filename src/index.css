@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #14422d;
+  --color-forest-dark: #0e2d1f;
+  --color-forest-deep: #081c13;
+  --color-forest-light: #20563c;
+  --color-forest-surface: #1b4d36;
+
+  --color-sage: #889f8a;
+  --color-sage-light: #dbe5dc;
+  --color-sage-soft: #f2f6f3;
+  --color-sage-cream: #faf8f5;
+
+  --color-gold: #c5a059;
+  --color-gold-light: #e6c88b;
+  --color-gold-dark: #9e7930;
+  --color-gold-foil: #dfbb6c;
+
+  --font-serif: "Cinzel", "Cormorant Garamond", serif;
+  --font-display: "Cinzel", "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-arabic: "Amiri", serif;
+}
+
+/* Archway Architectures */
+.arch-card {
+  border-radius: 200px 200px 24px 24px;
+}
+
+.arch-inner {
+  border-radius: 194px 194px 20px 20px;
+}
+
+.arch-circle-top {
+  border-radius: 9999px 9999px 24px 24px;
+}
+
+/* Metallic Gold Foil Shimmer */
+.gold-shimmer {
+  background: linear-gradient(135deg, #c5a059 0%, #fae5b9 50%, #b2873c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #d4ad64 0%, #e6c88b 50%, #b88d3e 100%);
+  box-shadow: 0 4px 20px rgba(197, 160, 89, 0.4);
+}
+
+.shadow-luxury {
+  box-shadow: 0 20px 45px -10px rgba(8, 28, 19, 0.45), 0 0 20px rgba(197, 160, 89, 0.2);
+}
+
+/* Floating music disc animation */
+@keyframes spinMusic {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-music {
+  animation: spinMusic 8s linear infinite;
+}
+
+.rotate-music-paused {
+  animation-play-state: paused;
+}
+
+/* Dedicated internal smooth scrollbar for Wishes & Prayers */
+.wishes-scroll-container {
+  max-height: 480px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(197, 160, 89, 0.4) transparent;
+}
+
+.wishes-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.wishes-scroll-container::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 9999px;
+}
+
+.wishes-scroll-container::-webkit-scrollbar-thumb {
+  background: rgba(197, 160, 89, 0.4);
+  border-radius: 9999px;
+}
+
+.wishes-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 160, 89, 0.7);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes petalFall {
+  0% {
+    top: -50px;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    top: 105vh;
+    opacity: 0;
+  }
+}
+
+@keyframes petalSway {
+  0% {
+    transform: translateX(-24px) rotate(-18deg) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(20px) rotate(16deg) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(-18px) rotate(-12deg) rotateY(360deg);
+  }
+}

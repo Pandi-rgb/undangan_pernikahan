@@ -1,0 +1,6 @@
+{
+  "name": "The Wedding of Sopian & Annisa",
+  "description": "Undangan pernikahan digital Sopian & Annisa dengan musik latar, countdown, kado digital, dan buku tamu ucapan real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
