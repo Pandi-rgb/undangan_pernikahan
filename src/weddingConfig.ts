@@ -103,7 +103,7 @@ export const weddingConfig: WeddingConfig = {
       image: "/images/bride.jpg",
     },
     jointTitle: "SOPIAN & ANNISA",
-    togetherImage: "/images/mempelai.png",
+    togetherImage: "/images/mempelai2.png",
   },
 
   // 2. JADWAL PERNIKAHAN & COUNTDOWN TIMER

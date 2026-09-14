@@ -557,7 +557,7 @@ export default function App() {
                     <div className="relative aspect-[3/4] rounded-t-[120px] rounded-b-2xl overflow-hidden border-2 border-[#c5a059]/60 p-1.5 bg-[#14422d] shadow-xl">
                       <div className="w-full h-full rounded-t-[112px] rounded-b-xl overflow-hidden relative">
                         <img
-                          src="/images/mempelai.png"
+                          src="/images/mempelai2.png"
                           alt="M. Sopian Asrin & Lale Annisa Janatin Sholeha"
                           referrerPolicy="no-referrer"
                           className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
@@ -602,23 +602,22 @@ export default function App() {
 
                     {/* Name & Title */}
                     <h3 className="font-serif not-italic uppercase tracking-[0.15em] text-base text-[#14422d] font-bold mb-2">
-                      M. Sopian Asrin, M.Pd
+                      M. Sopian Asrin, S.Pd, M.Pd
                     </h3>
 
                     {/* Parents Description */}
                     <p className="text-xs text-stone-600 font-sans leading-relaxed mb-4 max-w-xs not-italic">
-                      Putra dari:
+                      Putra Pertama Dari:
                       <br />
                       <span className="font-semibold text-stone-800">
-                        Alm. Bapak H. Ahmad &amp;{" "}
+                        Bapak Moh. Safi'i, S.Pd &amp;{" "}
                       </span>
                       <br />
                       <span className="font-semibold text-stone-800">
-                        Ibu Hj. Siti Aminah
+                        Nurhaini Serta
                       </span>{" "}
-                      serta{" "}
                       <span className="font-semibold text-stone-800">
-                        Bapak H. Abdullah
+                        Muhammad Nasri
                       </span>
                     </p>
 
@@ -677,13 +676,13 @@ export default function App() {
 
                     {/* Parents Description */}
                     <p className="text-xs text-stone-600 font-sans leading-relaxed mb-4 max-w-xs not-italic">
-                      Putri dari pasangan:
+                      Putri Pertama Dari:
                       <br />
                       <span className="font-semibold text-stone-800">
                         Bapak Zulherman, SE.
                       </span>
                       <br />
-                      dan{" "}
+                      <span className="font-semibold text-stone-800">&amp;</span>{" "}
                       <span className="font-semibold text-stone-800">
                         Ibu Lale Miftah, A.Md
                       </span>
