@@ -682,7 +682,9 @@ export default function App() {
                         Bapak Zulherman, SE.
                       </span>
                       <br />
-                      <span className="font-semibold text-stone-800">&amp;</span>{" "}
+                      <span className="font-semibold text-stone-800">
+                        &amp;
+                      </span>{" "}
                       <span className="font-semibold text-stone-800">
                         Ibu Lale Miftah, A.Md
                       </span>
@@ -1287,7 +1289,7 @@ export default function App() {
                     Bapak/Ibu/Saudara/i sekalian.
                   </p>
 
-                  <p className="font-serif not-italic text-xs font-semibold text-[#9e7930] tracking-[0.25em] uppercase">
+                  <p className="font-serif not-italic text-xs font-semibold text-[rgb(158,121,48)] tracking-[0.25em] uppercase">
                     KAMI YANG BERBAHAGIA:
                   </p>
                   <p className="font-serif not-italic uppercase tracking-[0.2em] text-base font-bold text-[#14422d] mt-1">
@@ -1295,7 +1297,15 @@ export default function App() {
                   </p>
 
                   <p className="text-[10px] text-stone-400 mt-6 uppercase tracking-[0.2em] font-sans not-italic">
-                    DIGITAL WEDDING INVITATION • BALETECHNOLOGYSOLUTIONS
+                    {" "}
+                    <a
+                      href="https://www.instagram.com/baletechnology/"
+                      target="_blank"
+                        rel="noopener noreferrer"
+                        className='hover:text-[rgb(158,121,48)]'
+                    >
+                      DIGITAL WEDDING INVITATION • BALETECHNOLOGYSOLUTIONS
+                    </a>
                   </p>
                 </motion.footer>
               </div>
