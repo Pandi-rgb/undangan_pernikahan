@@ -496,7 +496,7 @@ export default function App() {
                   <p className="font-sans not-italic text-xs text-stone-600 leading-relaxed max-w-sm mb-6 font-normal">
                     Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala,
                     kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk
-                    menghadiri dan mendoakan pernikahan putra-putri kami:
+                    menghadiri dan mendoakan pernikahan kami:
                   </p>
 
                   {/* Surah Ar-Rum Card */}
