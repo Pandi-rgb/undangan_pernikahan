@@ -112,27 +112,27 @@ export default function App() {
 
   // Fallback initial wishes if database is freshly seeded
   const initialFallbackWishes: Wish[] = [
-    {
-      id: 'mock-1',
-      name: 'Faisal & Keluarga',
-      status: 'Hadir',
-      message: "Barakallahu laka wa baraka 'alaika wa jama'a bainakuma fii khair. Semoga sakinah mawaddah warahmah hingga jannah Sopian & Annisa!",
-      createdAt: new Date(Date.now() - 10 * 60 * 1000)
-    },
-    {
-      id: 'mock-2',
-      name: 'Rina Marlina, S.Pd',
-      status: 'Hadir',
-      message: 'Selamat menempuh hidup baru sahabatku Annisa! Semoga lancar sampai hari H dan senantiasa diberkahi Allah.',
-      createdAt: new Date(Date.now() - 35 * 60 * 1000)
-    },
-    {
-      id: 'mock-3',
-      name: 'H. Muhammad Ridwan',
-      status: 'Hadir',
-      message: 'Semoga menjadi keluarga yang sakinah, mawadah, warahmah dan lekas dikaruniai keturunan yang sholeh dan sholehah.',
-      createdAt: new Date(Date.now() - 2 * 60 * 60 * 1000)
-    }
+    // {
+    //   id: 'mock-1',
+    //   name: 'Faisal & Keluarga',
+    //   status: 'Hadir',
+    //   message: "Barakallahu laka wa baraka 'alaika wa jama'a bainakuma fii khair. Semoga sakinah mawaddah warahmah hingga jannah Sopian & Annisa!",
+    //   createdAt: new Date(Date.now() - 10 * 60 * 1000)
+    // },
+    // {
+    //   id: 'mock-2',
+    //   name: 'Rina Marlina, S.Pd',
+    //   status: 'Hadir',
+    //   message: 'Selamat menempuh hidup baru sahabatku Annisa! Semoga lancar sampai hari H dan senantiasa diberkahi Allah.',
+    //   createdAt: new Date(Date.now() - 35 * 60 * 1000)
+    // },
+    // {
+    //   id: 'mock-3',
+    //   name: 'H. Muhammad Ridwan',
+    //   status: 'Hadir',
+    //   message: 'Semoga menjadi keluarga yang sakinah, mawadah, warahmah dan lekas dikaruniai keturunan yang sholeh dan sholehah.',
+    //   createdAt: new Date(Date.now() - 2 * 60 * 60 * 1000)
+    // }
   ];
 
   // 1. Read query parameters for personalized guest name
@@ -628,7 +628,7 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs text-[#14422d] bg-[#f2f6f3] px-4 py-1.5 rounded-full border border-[#14422d]/20 font-medium transition hover:bg-[#14422d] hover:text-[#c5a059] tracking-wide"
                     >
-                      <span>@sopianasrin</span>
+                      {/* <span>@sopianasrin</span> */}
                     </a>
                   </motion.div>
 
@@ -695,7 +695,7 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs text-[#14422d] bg-[#f2f6f3] px-4 py-1.5 rounded-full border border-[#14422d]/20 font-medium transition hover:bg-[#14422d] hover:text-[#c5a059] tracking-wide"
                     >
-                      <span>@annisa</span>
+                      {/* <span>@annisa</span> */}
                     </a>
                   </motion.div>
                 </motion.section>
