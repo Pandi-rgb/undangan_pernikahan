@@ -622,14 +622,14 @@ export default function App() {
                     </p>
 
                     {/* Instagram Pill */}
-                    <a
+                    {/* <a
                       href="https://instagram.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs text-[#14422d] bg-[#f2f6f3] px-4 py-1.5 rounded-full border border-[#14422d]/20 font-medium transition hover:bg-[#14422d] hover:text-[#c5a059] tracking-wide"
                     >
-                      {/* <span>@sopianasrin</span> */}
-                    </a>
+                      <span>@sopianasrin</span>
+                    </a> */}
                   </motion.div>
 
                   {/* Ampersand Divider */}
@@ -691,14 +691,14 @@ export default function App() {
                     </p>
 
                     {/* Instagram Pill */}
-                    <a
+                    {/* <a
                       href="https://instagram.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs text-[#14422d] bg-[#f2f6f3] px-4 py-1.5 rounded-full border border-[#14422d]/20 font-medium transition hover:bg-[#14422d] hover:text-[#c5a059] tracking-wide"
                     >
-                      {/* <span>@annisa</span> */}
-                    </a>
+                      <span>@annisa</span>
+                    </a> */}
                   </motion.div>
                 </motion.section>
 
